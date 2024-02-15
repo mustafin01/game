@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Моя игра</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div ></div>
+  <div id="login-screen" class="screen">
+    <h1>Добро пожаловать в игру!</h1>
+    <form id="login-form">
+      <label for="username">Имя пользователя:</label>
+      <input type="text" id="username">
+      <button id="start-btn">Начать игру</button>
+    </form>
+  </div>
+
+  <div id="login-scrn">
+    
+  </div>
+  
+  <div id="game-screen" style="display: none;">
+    <div id="game-info">
+      <button id="start-timer">Start Timer</button>
+      <p>Имя пользователя: <span id="username-display"></span></p>
+      <p>Текущее время: <span id="current-time-display"></span></p>
+      <p>Время прошедшее с начала игры: <span id="time-spent-display">00:00:00</span></p>
+      <p>Счетчик жизней: <span id="lives-counter"></span></p>
+    </div>
+    <div id="game-map">
+      <div id="game-map" style="position: relative; width: 800px; height: 600px; background-color: #f0f0f0; border: 1px solid #000;">
+      </div>
+    </div>
+  </div>
+
+  <div id="results-screen" class="screen" style="display: none;">
+    <h2>Экран результатов</h2>
+    <p>Имя пользователя: <span id="results-username"></span></p>
+    <p>Время: <span id="results-time"></span></p>
+    <p>Количество столкновений с монстрами: <span id="results-monster-hits"></span></p>
+    <p>Количество попаданий в ловушки: <span id="results-trap-hits"></span></p>
+    <p>Оставшиеся жизни: <span id="results-lives"></span></p>
+  </div>
+  <button id="play-again-btn">Играть сначала</button>  
+  <script src="./main.js"></script>
+</body>
+</html>

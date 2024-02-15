@@ -1,0 +1,72 @@
+.screen {
+    text-align: center;
+  }
+  
+  #game-map {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+  
+  #player {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-image: url(./png-transparent-animation-knight-character-cartoon-character-game-cartoon-fictional-character.png);
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #monster {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-image: url(./png-transparent-2d-computer-graphics-sprite-two-dimensional-space-sprite-video-game-fictional-character-cartoon.png);
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  #game-over-screen {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 3em;
+  }
+
+
+
+  #restart-btn {
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #play-again-btn:hover {
+    background-color: #45a049;
+  }
+  
